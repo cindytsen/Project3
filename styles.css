@@ -1,0 +1,29 @@
+/* Global View aka Desktop View */
+h1 {
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+    h1 {
+        color: cadetblue;
+        font-family: fantasy;
+    }
+
+}
+
+
+
+/* Mobile View */
+@media (max-width: 500px){
+    h1 {
+        color: blue;
+    }
+
+}
