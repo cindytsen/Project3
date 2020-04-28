@@ -21,6 +21,10 @@ body {
     margin-bottom: 20px;
 }
 
+.hide-desktop-only {
+    display: none;
+}
+
 
 
 /* Tablet View */
@@ -28,14 +32,23 @@ body {
   
 .col {
     width: 45%;
-
 }
 
+.hide-desktop-only {
+    display: block;
+}
 
+}
 
 /* Mobile View */
 @media (max-width: 500px){
 
 .col {
     width: 100%;
+}
+
+.hide-mobile-only {
+    display: none;
+}
+
 }
