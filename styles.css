@@ -1,20 +1,33 @@
 /* Global View aka Desktop View */
-h1 {
-    color: brown;
-    font-family: 'Courier New', Courier, monospace;
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: lightcoral;
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
-
+.col {
+    background-color: darkcyan;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 20px;
+}
 
 
 
 /* Tablet View */
 @media (max-width: 768px){
-    h1 {
-        color: cadetblue;
-        font-family: fantasy;
-    }
+  
+.col {
+    width: 45%;
 
 }
 
@@ -22,8 +35,7 @@ h1 {
 
 /* Mobile View */
 @media (max-width: 500px){
-    h1 {
-        color: blue;
-    }
 
+.col {
+    width: 100%;
 }
