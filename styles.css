@@ -1,10 +1,11 @@
 /* Global View aka Desktop View */
 body {
     margin: 0;
+    font-family: 'Asap', sans-serif;
 }
 
 .container {
-    background-color: lightcoral;
+    
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -17,6 +18,14 @@ body {
 .col {
     width: 30%;
     margin-bottom: 20px;
+    background-color: lightcoral;
+}
+
+.col p {
+    color: white;
+    font-size: 0.875rem;
+    padding: 5px 20px;
+    line-height: 1.25rem;
 }
 
 .hide-desktop-only {
@@ -28,7 +37,9 @@ body {
     height: auto;
 }
 
-
+.col p::first-line {
+    font-weight: bold;
+}
 
 
 
